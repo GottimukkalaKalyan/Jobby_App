@@ -1,0 +1,231 @@
+.job-detailed-container {
+  background-color: #202020;
+  margin: 10px;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1110px;
+}
+.job-detailed-header-section {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.companyLogoUrl {
+  width: 60px;
+  margin-right: 20px;
+}
+.job-detailed-rating-card {
+  display: flex;
+  align-items: center;
+}
+.job-detailed-title-and-rating {
+  margin: 0px;
+  padding: 0px;
+}
+.rating {
+  margin: 0px;
+  color: #cbd5e1;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0px;
+  color: #cbd5e1;
+}
+.star {
+  color: #fbbf24;
+  margin-right: 5px;
+  font-size: 20px;
+}
+.job-detailed-location-and-lpa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #cbd5e1;
+  margin: 0px;
+}
+.job-detailed-location-and-employmentType {
+  display: flex;
+  align-items: center;
+  color: #cbd5e1;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.location {
+  margin-right: 20px;
+  margin-left: 5px;
+  color: #cbd5e1;
+}
+.employmentType {
+  margin-right: 15px;
+  margin-left: 5px;
+  color: #cbd5e1;
+}
+.packagePerAnnum {
+  font-size: 17px;
+  font-weight: bold;
+  color: #cbd5e1;
+}
+.hr-line {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.locationIcon {
+  margin: 0px;
+  margin-top: 0px;
+}
+.job-detailed-jobDescription-heading {
+  font-size: 20px;
+  margin: 0px;
+  color: #cbd5e1;
+  padding: 0px;
+}
+.job-detailed-jobDescription {
+  margin: 0px;
+  margin-top: 25px;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+.description-and-url {
+  display: flex;
+  justify-content: space-between;
+}
+.visit {
+  color: #4f46e5;
+  font-weight: bold;
+  margin-right: 5px;
+  text-decoration: none;
+}
+.visit-icon {
+  color: #4f46e5;
+}
+.anchor-container {
+  display: flex;
+  align-items: center;
+}
+.skill-heading {
+  font-size: 20px;
+  margin: 0px;
+  color: #cbd5e1;
+  padding: 0px;
+  margin-top: 20px;
+}
+.skill-ul-container {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-item {
+  list-style-type: none;
+  display: flex;
+  min-width: 200px;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.skill-image {
+  width: 50px;
+  margin-right: 15px;
+}
+.skill-name {
+  color: #cbd5e1;
+  font-size: 15px;
+}
+@media screen and (max-width: 400px) {
+  .skill-image {
+    width: 30px;
+    margin-right: 15px;
+  }
+  .skill-name {
+    color: #cbd5e1;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .skill-item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+}
+.life-at-heading {
+  font-size: 20px;
+  margin: 0px;
+  color: #cbd5e1;
+  padding: 0px;
+  margin-top: 30px;
+}
+.life-at-description-and-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.life-at-description {
+  color: #cbd5e1;
+  font-weight: 500;
+  width: 100%;
+}
+.life-at-image {
+  flex-grow: 1;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .life-at-description {
+    width: 60%;
+  }
+  .life-at-image {
+    flex-grow: 1;
+    border-radius: 10px;
+  }
+}
+.similar-heading {
+  color: aliceblue;
+  text-align: start;
+  font-size: 20px;
+}
+.similar-jobs-detailed-main-container {
+  width: 90%;
+  margin-bottom: 50px;
+  margin: 20px;
+}
+
+.similar-card-ul-list {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-job-list-item {
+  color: aliceblue;
+  list-style-type: none;
+  background-color: #202020;
+  min-width: 250px;
+  flex-grow: 1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.similar-title {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0px;
+  color: #cbd5e1;
+}
+.similar-job-jobDescription-heading {
+  font-size: 15px;
+  margin: 0px;
+  margin-top: 20px;
+  color: #cbd5e1;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  .similar-job-list-item {
+    max-width: 250px;
+    margin-right: 20px;
+  }
+}

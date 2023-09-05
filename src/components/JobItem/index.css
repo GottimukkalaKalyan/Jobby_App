@@ -1,0 +1,91 @@
+.job-full-details {
+  background-color: #202020;
+  margin: 5px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.companyLogoUrl {
+  width: 60px;
+  margin-right: 20px;
+}
+.rating-card {
+  display: flex;
+  align-items: center;
+}
+.title-and-rating {
+  margin: 0px;
+  padding: 0px;
+}
+.rating {
+  margin: 0px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.star {
+  color: #fbbf24;
+  margin-right: 5px;
+  font-size: 20px;
+}
+.location-and-lpa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #cbd5e1;
+  margin: 0px;
+}
+.location-and-employmentType {
+  display: flex;
+  align-items: center;
+  color: #cbd5e1;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.location {
+  margin-right: 20px;
+  margin-left: 5px;
+  color: #cbd5e1;
+}
+.employmentType {
+  margin-right: 15px;
+  margin-left: 5px;
+  color: #cbd5e1;
+}
+.packagePerAnnum {
+  font-size: 17px;
+  font-weight: bold;
+  color: #cbd5e1;
+}
+.hr-line {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.locationIcon {
+  margin: 0px;
+  margin-top: 0px;
+}
+.jobDescription-heading {
+  font-size: 20px;
+  margin: 0px;
+  color: #cbd5e1;
+  padding: 0px;
+}
+.jobDescription {
+  margin: 0px;
+  margin-top: 5px;
+  color: #cbd5e1;
+}
+.job-link {
+  text-decoration: none;
+  color: #cbd5e1;
+}

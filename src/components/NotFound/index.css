@@ -1,0 +1,35 @@
+.not-found-main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  height: 91vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.page-not-found-heading {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.not-found-para {
+  margin-top: 10px;
+  color: #f8fafc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.not-found-image-mobile-view {
+  width: 100%;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image-mobile-view {
+    max-width: 350px;
+  }
+  .page-not-found-heading {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+}

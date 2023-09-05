@@ -1,0 +1,22 @@
+.employment-label {
+  color: white;
+  margin-left: 5px;
+}
+.employment-item {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 5px;
+}
+.types-of-employments {
+  margin: 0px;
+  padding: 0px;
+}
+.filter-container {
+  max-width: 300px;
+}
+.hr-line {
+  margin-top: 20px;
+}
+.type-of-employment-heading {
+  font-size: 15px;
+}
